@@ -1,0 +1,2 @@
+numpy
+# Board control additionally requires the PYNQ image supplied for your board.

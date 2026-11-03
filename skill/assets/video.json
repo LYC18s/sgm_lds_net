@@ -1,0 +1,6 @@
+{
+  "schema_version": 1,
+  "stream": {"data_width_bits": 24, "framing": "video", "beats_per_line": 4, "lines_per_frame": 2, "expected_frames": 2},
+  "capture": {"clock_hz": 75000000, "contiguous": true, "start": "boundary", "complete_end": true},
+  "signals": {"cycle": "cycle", "resetn": "resetn", "valid": "valid", "ready": "ready", "data": "data", "keep": "keep", "last": "last", "user": "user"}
+}

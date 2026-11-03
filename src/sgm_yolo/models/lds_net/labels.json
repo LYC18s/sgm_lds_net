@@ -1,0 +1,19 @@
+{
+  "detection": {
+    "0": "person",
+    "1": "bicycle",
+    "2": "car",
+    "3": "motorcycle",
+    "4": "bus",
+    "5": "truck",
+    "6": "traffic light",
+    "7": "fire hydrant",
+    "8": "stop sign",
+    "9": "parking meter"
+  },
+  "road": {
+    "0": "background",
+    "1": "direct",
+    "2": "alternative"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "schema_version": 1,
+  "stream": {"data_width_bits":32,"framing":"packet","packet_bytes":4,"expected_packets":1},
+  "capture": {"clock_hz":100000000,"contiguous":true,"start":"boundary","complete_end":true},
+  "signals": {"cycle":"cycle","resetn":"resetn","valid":"valid","ready":"ready","data":"data","keep":"keep","last":"last","user":"user"}
+}

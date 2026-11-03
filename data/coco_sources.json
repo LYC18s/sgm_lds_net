@@ -1,0 +1,13 @@
+{
+  "stuffthingmaps_trainval2017.zip": {
+    "url": "https://huggingface.co/datasets/JPShi/COCO-Stuff/resolve/b7af13b9d74c9ab4a6e0ffa787a40f0ab8ec1a40/stuffthingmaps_trainval2017.zip",
+    "size": 659008564,
+    "sha256": "da7f213d6a581bd6912a957573d7b4e5061de0d41f733bb27249b0fa981239d7",
+    "actual_sha256": "da7f213d6a581bd6912a957573d7b4e5061de0d41f733bb27249b0fa981239d7"
+  },
+  "annotations_trainval2017.zip": {
+    "url": "http://images.cocodataset.org/annotations/annotations_trainval2017.zip",
+    "size": 252907541,
+    "actual_sha256": "113a836d90195ee1f884e704da6304dfaaecff1f023f49b6ca93c4aaae470268"
+  }
+}

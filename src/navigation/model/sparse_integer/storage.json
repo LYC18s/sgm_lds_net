@@ -1,0 +1,614 @@
+{
+  "format": "lds_net.sparse_weights.v1",
+  "file_bytes": 194128,
+  "header_bytes": 64,
+  "index_bytes": 1184,
+  "alignment_bytes": 51,
+  "dense_weight_bytes": 240640,
+  "layers": [
+    {
+      "shape": [
+        16,
+        3,
+        3,
+        3
+      ],
+      "bits": 8,
+      "mode": "dense",
+      "offset": 1248,
+      "bytes": 432,
+      "nnz": 428,
+      "integer_zero_fraction": 0.0092592592592593,
+      "dense_bytes": 432,
+      "source": "model.0.conv"
+    },
+    {
+      "shape": [
+        32,
+        16,
+        3,
+        3
+      ],
+      "bits": 4,
+      "mode": "dense",
+      "offset": 1680,
+      "bytes": 2304,
+      "nnz": 3493,
+      "integer_zero_fraction": 0.24197048611111116,
+      "dense_bytes": 2304,
+      "source": "model.1.conv"
+    },
+    {
+      "shape": [
+        16,
+        32,
+        1,
+        1
+      ],
+      "bits": 4,
+      "mode": "dense",
+      "offset": 3984,
+      "bytes": 256,
+      "nnz": 437,
+      "integer_zero_fraction": 0.146484375,
+      "dense_bytes": 256,
+      "source": "model.2.reduce.conv"
+    },
+    {
+      "shape": [
+        32,
+        16,
+        3,
+        3
+      ],
+      "bits": 4,
+      "mode": "dense",
+      "offset": 4240,
+      "bytes": 2304,
+      "nnz": 3628,
+      "integer_zero_fraction": 0.21267361111111116,
+      "dense_bytes": 2304,
+      "source": "model.2.expand.conv"
+    },
+    {
+      "shape": [
+        64,
+        32,
+        3,
+        3
+      ],
+      "bits": 4,
+      "mode": "dense",
+      "offset": 6544,
+      "bytes": 9216,
+      "nnz": 14503,
+      "integer_zero_fraction": 0.21316189236111116,
+      "dense_bytes": 9216,
+      "source": "model.3.conv"
+    },
+    {
+      "shape": [
+        32,
+        64,
+        1,
+        1
+      ],
+      "bits": 4,
+      "mode": "dense",
+      "offset": 15760,
+      "bytes": 1024,
+      "nnz": 1762,
+      "integer_zero_fraction": 0.1396484375,
+      "dense_bytes": 1024,
+      "source": "model.4.reduce.conv"
+    },
+    {
+      "shape": [
+        64,
+        32,
+        3,
+        3
+      ],
+      "bits": 4,
+      "mode": "dense",
+      "offset": 16784,
+      "bytes": 9216,
+      "nnz": 14679,
+      "integer_zero_fraction": 0.20361328125,
+      "dense_bytes": 9216,
+      "source": "model.4.expand.conv"
+    },
+    {
+      "shape": [
+        96,
+        64,
+        3,
+        3
+      ],
+      "bits": 4,
+      "mode": "bitmap",
+      "offset": 26000,
+      "bytes": 20736,
+      "nnz": 27648,
+      "integer_zero_fraction": 0.5,
+      "dense_bytes": 27648,
+      "source": "model.5.conv"
+    },
+    {
+      "shape": [
+        48,
+        96,
+        1,
+        1
+      ],
+      "bits": 4,
+      "mode": "dense",
+      "offset": 46736,
+      "bytes": 2304,
+      "nnz": 3898,
+      "integer_zero_fraction": 0.15407986111111116,
+      "dense_bytes": 2304,
+      "source": "model.6.reduce.conv"
+    },
+    {
+      "shape": [
+        96,
+        48,
+        3,
+        3
+      ],
+      "bits": 4,
+      "mode": "dense",
+      "offset": 49040,
+      "bytes": 20736,
+      "nnz": 32777,
+      "integer_zero_fraction": 0.20965952932098764,
+      "dense_bytes": 20736,
+      "source": "model.6.expand.conv"
+    },
+    {
+      "shape": [
+        128,
+        96,
+        3,
+        3
+      ],
+      "bits": 4,
+      "mode": "bitmap",
+      "offset": 69776,
+      "bytes": 33216,
+      "nnz": 38784,
+      "integer_zero_fraction": 0.6493055555555556,
+      "dense_bytes": 55296,
+      "source": "model.7.conv"
+    },
+    {
+      "shape": [
+        64,
+        128,
+        1,
+        1
+      ],
+      "bits": 4,
+      "mode": "dense",
+      "offset": 102992,
+      "bytes": 4096,
+      "nnz": 6974,
+      "integer_zero_fraction": 0.148681640625,
+      "dense_bytes": 4096,
+      "source": "model.8.reduce.conv"
+    },
+    {
+      "shape": [
+        128,
+        64,
+        3,
+        3
+      ],
+      "bits": 4,
+      "mode": "bitmap",
+      "offset": 107088,
+      "bytes": 22144,
+      "nnz": 25856,
+      "integer_zero_fraction": 0.6493055555555556,
+      "dense_bytes": 36864,
+      "source": "model.8.expand.conv"
+    },
+    {
+      "shape": [
+        64,
+        128,
+        1,
+        1
+      ],
+      "bits": 4,
+      "mode": "dense",
+      "offset": 129232,
+      "bytes": 4096,
+      "nnz": 6823,
+      "integer_zero_fraction": 0.1671142578125,
+      "dense_bytes": 4096,
+      "source": "model.9.conv"
+    },
+    {
+      "shape": [
+        64,
+        96,
+        1,
+        1
+      ],
+      "bits": 4,
+      "mode": "dense",
+      "offset": 133328,
+      "bytes": 3072,
+      "nnz": 5186,
+      "integer_zero_fraction": 0.15592447916666663,
+      "dense_bytes": 3072,
+      "source": "model.10.conv"
+    },
+    {
+      "shape": [
+        64,
+        64,
+        3,
+        3
+      ],
+      "bits": 4,
+      "mode": "bitmap",
+      "offset": 136400,
+      "bytes": 15676,
+      "nnz": 22136,
+      "integer_zero_fraction": 0.3995225694444444,
+      "dense_bytes": 18432,
+      "source": "model.11.conv"
+    },
+    {
+      "shape": [
+        16,
+        64,
+        3,
+        3
+      ],
+      "bits": 4,
+      "mode": "bitmap",
+      "offset": 152080,
+      "bytes": 4125,
+      "nnz": 5946,
+      "integer_zero_fraction": 0.35481770833333337,
+      "dense_bytes": 4608,
+      "source": "model.12.one2one_cv2.0.0.conv"
+    },
+    {
+      "shape": [
+        16,
+        16,
+        3,
+        3
+      ],
+      "bits": 4,
+      "mode": "bitmap",
+      "offset": 156208,
+      "bytes": 880,
+      "nnz": 1183,
+      "integer_zero_fraction": 0.48654513888888884,
+      "dense_bytes": 1152,
+      "source": "model.12.one2one_cv2.0.1.conv"
+    },
+    {
+      "shape": [
+        4,
+        16,
+        1,
+        1
+      ],
+      "bits": 8,
+      "mode": "dense",
+      "offset": 157088,
+      "bytes": 64,
+      "nnz": 62,
+      "integer_zero_fraction": 0.03125,
+      "dense_bytes": 64,
+      "source": "model.12.one2one_cv2.0.2"
+    },
+    {
+      "shape": [
+        24,
+        64,
+        3,
+        3
+      ],
+      "bits": 4,
+      "mode": "bitmap",
+      "offset": 157152,
+      "bytes": 6894,
+      "nnz": 10331,
+      "integer_zero_fraction": 0.25267650462962965,
+      "dense_bytes": 6912,
+      "source": "model.12.one2one_cv3.0.0.conv"
+    },
+    {
+      "shape": [
+        24,
+        24,
+        3,
+        3
+      ],
+      "bits": 4,
+      "mode": "bitmap",
+      "offset": 164048,
+      "bytes": 2545,
+      "nnz": 3794,
+      "integer_zero_fraction": 0.2681327160493827,
+      "dense_bytes": 2592,
+      "source": "model.12.one2one_cv3.0.1.conv"
+    },
+    {
+      "shape": [
+        10,
+        24,
+        1,
+        1
+      ],
+      "bits": 8,
+      "mode": "dense",
+      "offset": 166608,
+      "bytes": 240,
+      "nnz": 237,
+      "integer_zero_fraction": 0.012499999999999956,
+      "dense_bytes": 240,
+      "source": "model.12.one2one_cv3.0.2"
+    },
+    {
+      "shape": [
+        16,
+        64,
+        3,
+        3
+      ],
+      "bits": 4,
+      "mode": "bitmap",
+      "offset": 166848,
+      "bytes": 4279,
+      "nnz": 6253,
+      "integer_zero_fraction": 0.32150607638888884,
+      "dense_bytes": 4608,
+      "source": "model.12.one2one_cv2.1.0.conv"
+    },
+    {
+      "shape": [
+        16,
+        16,
+        3,
+        3
+      ],
+      "bits": 4,
+      "mode": "bitmap",
+      "offset": 171136,
+      "bytes": 993,
+      "nnz": 1410,
+      "integer_zero_fraction": 0.38802083333333337,
+      "dense_bytes": 1152,
+      "source": "model.12.one2one_cv2.1.1.conv"
+    },
+    {
+      "shape": [
+        4,
+        16,
+        1,
+        1
+      ],
+      "bits": 8,
+      "mode": "dense",
+      "offset": 172144,
+      "bytes": 64,
+      "nnz": 63,
+      "integer_zero_fraction": 0.015625,
+      "dense_bytes": 64,
+      "source": "model.12.one2one_cv2.1.2"
+    },
+    {
+      "shape": [
+        24,
+        64,
+        3,
+        3
+      ],
+      "bits": 4,
+      "mode": "bitmap",
+      "offset": 172208,
+      "bytes": 6877,
+      "nnz": 10298,
+      "integer_zero_fraction": 0.25506365740740744,
+      "dense_bytes": 6912,
+      "source": "model.12.one2one_cv3.1.0.conv"
+    },
+    {
+      "shape": [
+        24,
+        24,
+        3,
+        3
+      ],
+      "bits": 4,
+      "mode": "dense",
+      "offset": 179088,
+      "bytes": 2592,
+      "nnz": 3922,
+      "integer_zero_fraction": 0.24344135802469136,
+      "dense_bytes": 2592,
+      "source": "model.12.one2one_cv3.1.1.conv"
+    },
+    {
+      "shape": [
+        10,
+        24,
+        1,
+        1
+      ],
+      "bits": 8,
+      "mode": "dense",
+      "offset": 181680,
+      "bytes": 240,
+      "nnz": 238,
+      "integer_zero_fraction": 0.008333333333333304,
+      "dense_bytes": 240,
+      "source": "model.12.one2one_cv3.1.2"
+    },
+    {
+      "shape": [
+        16,
+        64,
+        1,
+        1
+      ],
+      "bits": 4,
+      "mode": "dense",
+      "offset": 181920,
+      "bytes": 512,
+      "nnz": 833,
+      "integer_zero_fraction": 0.1865234375,
+      "dense_bytes": 512,
+      "source": "seg_head.p3.conv"
+    },
+    {
+      "shape": [
+        16,
+        64,
+        1,
+        1
+      ],
+      "bits": 4,
+      "mode": "dense",
+      "offset": 182432,
+      "bytes": 512,
+      "nnz": 853,
+      "integer_zero_fraction": 0.1669921875,
+      "dense_bytes": 512,
+      "source": "seg_head.context"
+    },
+    {
+      "shape": [
+        32,
+        16,
+        1,
+        1
+      ],
+      "bits": 4,
+      "mode": "dense",
+      "offset": 182944,
+      "bytes": 256,
+      "nnz": 472,
+      "integer_zero_fraction": 0.078125,
+      "dense_bytes": 256,
+      "source": "seg_head.semantic_refine.0.conv"
+    },
+    {
+      "shape": [
+        32,
+        32,
+        3,
+        3
+      ],
+      "bits": 4,
+      "mode": "dense",
+      "offset": 183200,
+      "bytes": 4608,
+      "nnz": 7853,
+      "integer_zero_fraction": 0.1478949652777778,
+      "dense_bytes": 4608,
+      "source": "seg_head.semantic_refine.1.conv"
+    },
+    {
+      "shape": [
+        32,
+        32,
+        3,
+        3
+      ],
+      "bits": 4,
+      "mode": "dense",
+      "offset": 187808,
+      "bytes": 4608,
+      "nnz": 7825,
+      "integer_zero_fraction": 0.1509331597222222,
+      "dense_bytes": 4608,
+      "source": "seg_head.semantic_refine.2.conv"
+    },
+    {
+      "shape": [
+        16,
+        32,
+        1,
+        1
+      ],
+      "bits": 4,
+      "mode": "dense",
+      "offset": 192416,
+      "bytes": 256,
+      "nnz": 459,
+      "integer_zero_fraction": 0.103515625,
+      "dense_bytes": 256,
+      "source": "seg_head.semantic_refine.3"
+    },
+    {
+      "shape": [
+        16,
+        32,
+        1,
+        1
+      ],
+      "bits": 4,
+      "mode": "dense",
+      "offset": 192672,
+      "bytes": 256,
+      "nnz": 434,
+      "integer_zero_fraction": 0.15234375,
+      "dense_bytes": 256,
+      "source": "seg_head.p2.conv"
+    },
+    {
+      "shape": [
+        16,
+        16,
+        3,
+        3
+      ],
+      "bits": 4,
+      "mode": "dense",
+      "offset": 192928,
+      "bytes": 1152,
+      "nnz": 1847,
+      "integer_zero_fraction": 0.19835069444444442,
+      "dense_bytes": 1152,
+      "source": "seg_head.refine.conv"
+    },
+    {
+      "shape": [
+        3,
+        16,
+        1,
+        1
+      ],
+      "bits": 8,
+      "mode": "dense",
+      "offset": 194080,
+      "bytes": 48,
+      "nnz": 48,
+      "integer_zero_fraction": 0.0,
+      "dense_bytes": 48,
+      "source": "seg_head.output"
+    }
+  ],
+  "integer_zero_fraction": 0.4307006364121019,
+  "native_sparse_execution": false,
+  "sha256": "161ec1cfe93b57f346d9ef86b150f0f1cd85dc9acfa3820f9f85b80836c42560",
+  "unchanged_parameter_storage": {
+    "weight_payload_bytes": 194128,
+    "bias_payload_bytes": 5500,
+    "weight_scale_payload_bytes": 5500,
+    "parameters_npz_container_bytes": 33974,
+    "note": "JSON metadata/NPZ headers are containers, not additional low-bit weights.",
+    "dense_weight_payload_bytes": 240640,
+    "sparse_header_and_index_included": true
+  }
+}

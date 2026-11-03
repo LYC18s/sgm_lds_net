@@ -1,0 +1,6 @@
+interface:
+  display_name: "PYNQ AXI4-Stream 诊断"
+  short_description: "检查流协议、反压与帧边界，定位 DMA 故障并分析性能，输出可复现证据报告"
+  default_prompt: "使用 $pynq-axis-diagnostics 检查当前 PYNQ 数据链路，先建立接口契约，再按现有证据定位异常并给出复测报告。"
+policy:
+  allow_implicit_invocation: true

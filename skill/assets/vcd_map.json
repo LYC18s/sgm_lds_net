@@ -1,0 +1,10 @@
+{
+  "clock": "tb_axis.clk",
+  "resetn": "tb_axis.resetn",
+  "valid": "tb_axis.valid",
+  "ready": "tb_axis.ready",
+  "data": "tb_axis.data",
+  "keep": "tb_axis.keep",
+  "last": "tb_axis.last",
+  "user": "tb_axis.user"
+}
