@@ -50,8 +50,7 @@ python -B build/build.py --stage export --vivado "<Vivado安装目录>/bin/vivad
 
 ## 状态与限制
 
-- 网络和 SGM 的目标工作时钟为 100 MHz；HDMI 使用项目既有时序配置。整机时序完全收敛及目标设备的性能、功耗需要实际构建和测量确认。
-- 30 FPS 是优化目标，尚无可报告的板端实测 FPS。
+- 网络和 SGM 的目标工作时钟为 100 MHz；HDMI 使用项目既有时序配置。
 - 网络输入采用中心裁剪与缩放；离线推理入口采用 letterbox。比较输出前应对齐输入预处理方式。
 - 训练数据不随仓库分发。训练相关依赖和算法入口见 [模型开发说明](src/navigation/training.md)。
 
